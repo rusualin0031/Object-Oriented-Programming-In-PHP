@@ -4,7 +4,7 @@ class User
     public $first_name;
     public $last_name;
     public $username;
-    public $passord;
+    public $password;
     public $status;
 
     public function __construct($first_name, $last_name, $status)
@@ -25,7 +25,7 @@ class User
     }
 
     public function __destruct(){
-        echo "Object is destucted! <br>";
+        echo "Object is destructed! <br>";
     }
 }
 
